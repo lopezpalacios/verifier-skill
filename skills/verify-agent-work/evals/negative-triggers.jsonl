@@ -1,0 +1,8 @@
+{"case_id":"trigger-negative-code-review","prompt":"Review this pull request for ordinary correctness, readability, and maintainability issues.","should_trigger":false,"reason":"Generic code review without an agent-work or verifier audit.","tags":["code-review"]}
+{"case_id":"trigger-negative-implement","prompt":"Implement CSV export in the reporting service and add tests.","should_trigger":false,"reason":"Implementation request, not verification of prior agent work.","tags":["implementation"]}
+{"case_id":"trigger-negative-fix-tests","prompt":"Fix the three failing unit tests in this repository.","should_trigger":false,"reason":"Repair request, not an audit.","tags":["debugging"]}
+{"case_id":"trigger-negative-explain","prompt":"Explain how the retry function works and why it uses exponential backoff.","should_trigger":false,"reason":"Explanation request.","tags":["explanation"]}
+{"case_id":"trigger-negative-readme","prompt":"Write a concise README for this command-line tool.","should_trigger":false,"reason":"Documentation creation request.","tags":["documentation"]}
+{"case_id":"trigger-negative-security","prompt":"Perform a security review of this authentication module.","should_trigger":false,"reason":"Domain code audit without evaluating an agent or skill.","tags":["security-review"]}
+{"case_id":"trigger-negative-performance","prompt":"Profile this API endpoint and optimize its slow database query.","should_trigger":false,"reason":"Performance diagnosis and implementation.","tags":["performance"]}
+{"case_id":"trigger-negative-summary","prompt":"Summarize the changes in this git diff for the release notes.","should_trigger":false,"reason":"Diff summarization does not assess claimed completion or evidence.","tags":["summary"]}

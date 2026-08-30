@@ -1,0 +1,6 @@
+interface:
+  display_name: "Verify Agent Work"
+  short_description: "Audit agent work with reproducible evidence"
+  default_prompt: "Use $verify-agent-work to audit this agent task and return a typed, evidence-linked verdict."
+policy:
+  allow_implicit_invocation: true
